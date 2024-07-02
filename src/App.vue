@@ -6,6 +6,9 @@
 
 <script setup lang="ts">
 const str = '这是一段测试'
+for(let i = 1;i<10;i++){
+  console.log(i)
+}
 </script>
 
 <style scoped lang="scss">
