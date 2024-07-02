@@ -1,12 +1,12 @@
 <template>
   <div class="box">
-    <h1>hello vue3</h1>
+    <h1>新增一个标题</h1>
   </div>
 </template>
 
 <script setup lang="ts">
 const str = '这是一段测试'
-for(let i = 1;i<10;i++){
+for (let i = 1; i < 10; i++) {
   console.log(i)
 }
 </script>
