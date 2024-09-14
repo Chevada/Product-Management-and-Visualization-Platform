@@ -1,18 +1,7 @@
 # project
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+该项目为基于Vue3的商品后台管理项目，采用企业级的开发流程，涵盖登录模块、权限管理(用户管理、权限管
+理、菜单管理等)、商品管理(SPU，SKU)、数据展示大屏等模块，参考尚硅谷的硅谷甄选项目实现。
 
 ## Project Setup
 
