@@ -1,23 +1,9 @@
 <template>
-  <div class="box">
-    <h1>新增一个标题</h1>
+  <div>
+    <router-view></router-view>
   </div>
 </template>
 
-<script setup lang="ts">
-const str = '这是一段测试'
-for (let i = 1; i < 10; i++) {
-  console.log(i)
-}
-</script>
+<script setup lang="ts"></script>
 
-<style scoped lang="scss">
-.box {
-  width: 600px;
-  height: 400px;
-  background-color: black;
-  h1 {
-    color: white;
-  }
-}
-</style>
+<style scoped lang="scss"></style>

@@ -1,0 +1,16 @@
+// 引入清除默认样式
+@import './reset.scss';
+
+// 滚动条外观设置
+// :: 是 CSS 伪元素选择器的一部分。::-webkit-scrollbar 及其相关伪元素选择器用于自定义 WebKit 浏览器中的滚动条外观
+::-webkit-scrollbar {
+  width:15px;
+}
+::-webkit-scrollbar-track{
+  background: $base-menu-background;
+}
+::-webkit-scrollbar-thumb{
+  width:15px;
+  background-color: #409eff;
+  border-radius: 5px;
+}
